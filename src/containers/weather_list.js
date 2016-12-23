@@ -29,8 +29,8 @@ class WeatherList extends Component {
   }
 }
 
-function mapStatetoProps({ weather }) {
+function mapStateToProps({ weather }) {
   return { weather };
 }
 
-export default connect(mapStatetoProps)(WeatherList);
+export default connect(mapStateToProps)(WeatherList);
